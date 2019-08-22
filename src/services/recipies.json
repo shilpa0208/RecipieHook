@@ -1,0 +1,42 @@
+[
+    {
+        "id": 100,
+        "title": "Palak Paneer",
+        "subtitle": "Indian Cuisine",
+        "description": "Yummy and healthy recipie using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
+        "imageUrl": "../images/palakPaneer.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 200,
+        "title": "Shahi Paneer Biryani",
+        "subtitle": "Indian Cuisine",
+        "description": "Yummy and healthy recipie using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
+        "imageUrl": "../images/sahiBiryani.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 300,
+        "title": "Kadai Mushroom",
+        "subtitle": "Indian Cuisine",
+        "description": "Yummy and healthy recipie using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
+        "imageUrl": "../images/KadaiMusroom.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 400,
+        "title": "Garlic Asparagus Fried Rice",
+        "subtitle": "Indian Cuisine",
+        "description": "Yummy and healthy recipie using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
+        "imageUrl": "../images/garlicAsparagusFriedRice.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 500,
+        "title": "Aloo Gobi",
+        "subtitle": "Indian Cuisine",
+        "description": "Yummy and healthy recipie using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
+        "imageUrl": "../images/alooGobi.jpg",
+        "rating": 4.5
+    }
+]
