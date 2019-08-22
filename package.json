@@ -1,0 +1,34 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "~1.1.2"
+  },
+  "scripts": {
+    "tailwind:css": "tailwind build src/css/main.css --config tailwind.config.js --output src/generated/tailwind.css",
+    "start": "yarn tailwind:css && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
