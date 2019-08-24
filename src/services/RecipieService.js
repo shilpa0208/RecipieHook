@@ -1,8 +1,10 @@
 import recipies from './recipies'
 
 
-export default class RecipieService {
-    getMovies() {
+class RecipieService {
+    getRecipies() {
         return recipies ? recipies : []
     }
 }
+
+export default new RecipieService()
