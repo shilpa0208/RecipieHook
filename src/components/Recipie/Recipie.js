@@ -18,7 +18,7 @@ export default class Recipie extends Component {
 
     render() {
         return (
-            <div className='container max-width'>
+            <div className='h-screen'>
                 <RecipieList recipies={this.state.recipies} />
             </div>
         )
