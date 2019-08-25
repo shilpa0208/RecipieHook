@@ -6,7 +6,7 @@ import Recipie from './Recipie/Recipie'
 
 function App() {
   return (
-    <div className=''>
+    <div>
       <Header title='Recipie Hook'/>
       <Recipie />
     </div>
