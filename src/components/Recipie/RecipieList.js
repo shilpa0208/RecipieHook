@@ -3,7 +3,7 @@ import RecipieCard from './RecipieCard'
 
 
 const RecipieList = (props) => (
-    <div className='flex flex-wrap mx-6 my-10'>
+    <div className='flex flex-wrap'>
         {
             props.recipies.map( recipie => 
                 <RecipieCard key={recipie.id} recipie={recipie}/>
