@@ -19,7 +19,9 @@ export default class Recipie extends Component {
     render() {
         return (
             <div className='h-screen'>
-                <RecipieList recipies={this.state.recipies} />
+                <div className='flex flex-row'>
+                    <RecipieList recipies={this.state.recipies} />
+                </div>
             </div>
         )
     }
