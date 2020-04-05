@@ -10,6 +10,12 @@
   "devDependencies": {
     "tailwindcss": "~1.1.2"
   },
+  "resolutions": {
+    "**/**/acorn": "^6.4.1",
+    "**/**/handlebars": "^4.3.0",
+    "**/**/kind-of": "^6.0.3",
+    "**/**/serialize-javascript": "^2.1.1"
+  },
   "scripts": {
     "tailwind:css": "tailwind build src/css/main.css --config tailwind.config.js --output src/generated/tailwind.css",
     "start": "yarn tailwind:css && react-scripts start",
