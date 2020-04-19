@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import RecipieService from '../../services/RecipieService'
 import RecipieList from './RecipieList'
+import api from '../../api'
 
 
 export default class Recipie extends Component {
@@ -12,8 +12,8 @@ export default class Recipie extends Component {
         }
     }
 
-    componentDidMount() {
-        this.setState({recipies: RecipieService.getRecipies()})
+    async componentDidMount() {
+        this.setState({recipies: await api.getRecipies()})
     }
 
     render() {
