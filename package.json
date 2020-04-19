@@ -1,40 +1,34 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "~16.9.0",
-    "react-dom": "~16.9.0",
-    "react-scripts": "3.0.1"
-  },
-  "devDependencies": {
-    "tailwindcss": "~1.1.2"
-  },
-  "resolutions": {
-    "**/**/acorn": "^6.4.1",
-    "**/**/handlebars": "^4.3.0",
-    "**/**/kind-of": "^6.0.3",
-    "**/**/serialize-javascript": "^2.1.1"
-  },
+  "name": "recipie-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "tailwind:css": "tailwind build src/css/main.css --config tailwind.config.js --output src/generated/tailwind.css",
-    "start": "yarn tailwind:css && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon backend/server.js",
+    "build": "yarn && cd frontend && yarn && yarn build && mv build ../_build_frontend",
+    "test": "yarn build && yarn test-local",
+    "test-local": "jest && cd frontend && yarn test"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilpa0208/RecipieTwist.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shilpa0208/RecipieTwist/issues"
+  },
+  "homepage": "https://github.com/shilpa0208/RecipieTwist#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "jest": "24.7.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "koa-send": "^5.0.0"
   }
 }
