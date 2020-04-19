@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import RecipieList from './RecipieList'
+import RecipieList from './RecipeList'
 import api from '../../api'
 
 
-export default class Recipie extends Component {
+export default class Recipe extends Component {
     constructor() {
         super()
 

@@ -1,6 +1,6 @@
 class API {
 
-    getRecipies() {
+    getRecipes() {
         return this.__request('GET', '/api/v1/recipes')
     }
 

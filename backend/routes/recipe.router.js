@@ -6,7 +6,7 @@ const router = new Router({
     prefix: '/api/v1/recipes',
 })
 
-router.get('/', recipeController.getRecipies)
+router.get('/', recipeController.getRecipes)
 
 
 module.exports = router

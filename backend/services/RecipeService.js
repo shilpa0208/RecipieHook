@@ -2,7 +2,7 @@ const recipes = require('./recipes')
 
 
 class RecipeService {
-    getRecipies() {
+    getRecipes() {
         return recipes ? recipes : []
     }
 }

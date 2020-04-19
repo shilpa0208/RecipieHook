@@ -1,5 +1,5 @@
 import React from 'react'
-import RecipieCard from './RecipieCard'
+import RecipieCard from './RecipeCard'
 
 
 const RecipieList = (props) => (
