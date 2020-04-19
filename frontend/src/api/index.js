@@ -1,7 +1,7 @@
 class API {
 
     getRecipies() {
-        return this.__request('GET', '/api/v1/recipies')
+        return this.__request('GET', '/api/v1/recipes')
     }
 
     setHeaders() {

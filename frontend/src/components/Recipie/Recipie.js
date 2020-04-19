@@ -8,19 +8,19 @@ export default class Recipie extends Component {
         super()
 
         this.state = {
-            recipies: []
+            recipes: []
         }
     }
 
     async componentDidMount() {
-        this.setState({recipies: await api.getRecipies()})
+        this.setState({recipes: await api.getRecipes()})
     }
 
     render() {
         return (
             <div className='h-screen'>
                 <div className='flex flex-row'>
-                    <RecipieList recipies={this.state.recipies} />
+                    <RecipieList recipes={this.state.recipes} />
                 </div>
             </div>
         )

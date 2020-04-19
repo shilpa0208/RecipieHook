@@ -1,9 +1,9 @@
-const recipies = require('./recipes')
+const recipes = require('./recipes')
 
 
 class RecipeService {
     getRecipies() {
-        return recipies ? recipies : []
+        return recipes ? recipes : []
     }
 }
 
