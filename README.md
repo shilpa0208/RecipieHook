@@ -1,6 +1,6 @@
 # RecipieHook
 
-This project is developed to showcase my cooking hobby. It displays some of my favorite recipes with a small description, image and cuisine. 
+This project is developed to showcase my cooking hobby. It is aimed to display some of my favorite recipes with a small description, image and cuisine they belong to. It is still actively developed.
 
 Coming up:
  - Ingredients used
