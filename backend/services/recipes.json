@@ -1,40 +1,40 @@
 [
     {
         "id": 100,
-        "title": "Palak Paneer",
-        "subtitle": "Indian Cuisine",
+        "name": "Palak Paneer",
+        "cuisine": "Indian Cuisine",
         "description": "Yummy and healthy recipe using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
         "imageUrl": "images/palakPaneer.jpg",
         "rating": 4.5
     },
     {
         "id": 200,
-        "title": "Garlic Asparagus Fried Rice",
-        "subtitle": "Indian Cuisine",
+        "name": "Garlic Asparagus Fried Rice",
+        "cuisine": "Indian Cuisine",
         "description": "Yummy and healthy recipe using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
         "imageUrl": "images/garlicAsparagusFriedRiceNew.jpg",
         "rating": 4.5
     },
     {
         "id": 300,
-        "title": "Aloo Gobi",
-        "subtitle": "Indian Cuisine",
+        "name": "Aloo Gobi",
+        "cuisine": "Indian Cuisine",
         "description": "Yummy and healthy recipe using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
         "imageUrl": "images/alooGobi.jpg",
         "rating": 4.5
     },
     {
         "id": 400,
-        "title": "Kadai Paneer",
-        "subtitle": "Indian Cuisine",
+        "name": "Kadai Paneer",
+        "cuisine": "Indian Cuisine",
         "description": "Yummy and healthy recipe using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
         "imageUrl": "images/kadaiPaneerNew.jpg",
         "rating": 4.5
     },
     {
         "id": 500,
-        "title": "Egg Biryani",
-        "subtitle": "Indian Cuisine",
+        "name": "Egg Biryani",
+        "cuisine": "Indian Cuisine",
         "description": "Yummy and healthy recipe using panneer(cottage cheese) and palak(spinach) which are rich source of proteins",
         "imageUrl": "images/eggBiryani.jpg",
         "rating": 4.5

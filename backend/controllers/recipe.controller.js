@@ -1,12 +1,12 @@
-const recipeService= require('../services/RecipeService')
+const recipeService= require('../services/recipe.service')
 
 
 class RecipeController {
-    getRecipes = (ctx, next) => {
+    getRecipes = async (ctx, next) => {
         try {
-            ctx.body = recipeService.getRecipes()
+            ctx.body = await recipeService.listRecipes()
         } catch (error) {
-            ctx.throw(500, `Failed to fetch all recipes with error: ${JSON.stringify(error)}`)
+            ctx.throw(500, `Failed to fetch all recipes with error: ${error.message}`)
         }
     }
 }
