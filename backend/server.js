@@ -15,6 +15,7 @@ const router = new Router()
 router.get('/static/:folder/:path', 
     ctx => send(ctx, `_build_frontend/static/${ctx.params.folder}/${ctx.params.path}`))
 router.get('/:path', ctx => send(ctx, `_build_frontend/${ctx.params.path}`))
+router.get('/images/:path', ctx => send(ctx, `_build_frontend/images/${ctx.params.path}`))
 router.get('/', ctx => send(ctx, '_build_frontend/index.html'))
 app.use(router.routes())
 

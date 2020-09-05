@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon backend/server.js",
-    "build": "yarn && cd frontend && yarn && yarn build && mv build ../_build_frontend",
+    "build": "yarn && rm -rf _build_frontend && cd frontend && yarn && yarn build && mv build ../_build_frontend",
     "test": "yarn build && yarn test-local",
     "test-local": "jest && cd frontend && yarn test"
   },
