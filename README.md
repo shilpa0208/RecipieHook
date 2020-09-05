@@ -1,6 +1,6 @@
 # RecipieHook
 
-This project is developed to showcase my cooking hobby. It displays some of my favorite recipes with a small description, image and cuisine. 
+This project is developed to showcase my cooking hobby. It is aimed to display some of my favorite recipes with a small description, image and cuisine they belong to. It is still actively developed.
 
 Coming up:
  - Ingredients used
@@ -9,8 +9,7 @@ Coming up:
  ## To Run Locally
 
  1. Clone this repo
- 1. There are two different `package.json` files here; one at the root level that runs the backend and all of the build commands(to run as one app, build frontend components and run backend routes), and one inside `frontend/package.json` that is specifically for the frontend. To start both apps, you need to run `yarn && yarn start` in both the top-level amd inside of `frontend/`. 
- 1. Goto `http:localhost:3000` to view the app on the browser
+ 1. There are two different `package.json` files here; one at the root level that runs the backend and all of the build commands(to run as one app, build frontend components using `yarn build` and run backend using `yarn start` to fetch routes), and one inside `frontend/package.json` that is specifically for the frontend. To start both apps, you need to run `yarn && yarn start` in both the top-level amd inside of `frontend/`. 
 
  ## Technologies Used
 
