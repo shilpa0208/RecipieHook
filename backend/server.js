@@ -2,6 +2,7 @@ const  Koa = require('koa')
 const KoaLogger = require('koa-logger')
 const Router = require('koa-router')
 const send = require('koa-send')
+const mongoose = require('mongoose')
 
 
 const app = new Koa()
@@ -24,5 +25,16 @@ app.use(router.routes())
 const recipeRoute = require('./routes/recipe.router')
 app.use(recipeRoute.routes())
 
+const dbConnection = async () => await mongoose.connect('mongodb://localhost/recipe', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify: false,
+  useCreateIndex: true
+});
+
+dbConnection()
+const db = mongoose.connection
+db.on('open', () => console.log('Successfully connected to database'))
+db.on('error', console.error.bind(console, 'Failed to connect to MongoDB error:'))
 
 app.listen(port, () => { console.log(`backend listening on port ${port}!`)})
