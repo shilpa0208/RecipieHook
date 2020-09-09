@@ -20,7 +20,7 @@
   "scripts": {
     "tailwind:css": "tailwind build src/css/main.css --config tailwind.config.js --output src/generated/tailwind.css",
     "start": "yarn tailwind:css && react-scripts start",
-    "build": "react-scripts build",
+    "build": "yarn tailwind:css && react-scripts build",
     "test": "react-scripts test"
   },
   "eslintConfig": {
