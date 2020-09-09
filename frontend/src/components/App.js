@@ -1,14 +1,14 @@
 import React from 'react'
 import '../generated/tailwind.css'
 import Header from './Header'
-import Recipe from './Recipe/Recipe'
+import Recipes from './Recipe/Recipes'
 
 
 function App() {
   return (
     <div>
       <Header title='Recipe Hook'/>
-      <Recipe />
+      <Recipes />
     </div>
   )
 }
