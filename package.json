@@ -30,6 +30,7 @@
     "koa-logger": "^3.2.1",
     "koa-router": "^8.0.8",
     "koa-send": "^5.0.0",
-    "mongoose": "^5.10.3"
+    "mongoose": "^5.10.3",
+    "react-router-dom": "^5.2.0"
   }
 }
