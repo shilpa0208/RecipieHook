@@ -13,7 +13,7 @@ const App = () => {
       <HashRouter>
         <Switch>
           <Route exact path='/' component={Recipes}/>
-          <Route path='/admin' compoennt={AddRecipe} />
+          <Route path='/admin' component={AddRecipe} />
           <Redirect to='/' />
         </Switch>
       </HashRouter>

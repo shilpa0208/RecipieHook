@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const RecipeSchema = new mongoose.Schema({
     name: String,
     cuisine: String,
-    overview: String,
+    shortDescription: String,
     description: String,
     image: Buffer,
 })
